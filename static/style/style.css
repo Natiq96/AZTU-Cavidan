@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Home Start */
+.home_start {
+    width: 100%;
+    height: 70rem;
+    background: url("walper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text for home_start section */
+.txt {
+    width: 150rem;
+    height: 30rem;
+    position: relative;
+}
+
+p {
+    color: white;
+}
+
+.phead {
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.pbody {
+    width: 100%;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.pfooter {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.pfooter::before {
+    content: "";
+    position: absolute;
+    width: 24rem;
+    height: .1rem;
+    background-color: white;
+    bottom: 12rem;
+    right: 63rem;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-con {
+    width: 150rem;
+    height: 8rem;
+    display: flex;
+}
+
+.nav-left-con {
+    width: 30rem;
+}
+
+.navp {
+    font-size: 3.2rem;
+    color: black;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.navp span {
+    color: rgb(83, 172, 142);
+    font-size: 4.8rem;
+}
+
+.nav-right-con {
+    width: 120rem;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links span {
+    font-size: 2.4rem;
+    display: flex;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-sosial {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+ion-icon {
+    color: #555;
+    font-size: 1.8rem;
+}
+
+ion-icon:hover {
+    color: rgb(83, 172, 142);
+    transition: color 1s;
+}
+
+/* Home Content */
+.home_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content-con {
+    width: 150rem;
+}
+
+.line {
+    height: 5rem;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.line::before {
+    width: 30rem;
+    height: .1rem;
+    background-color: #555;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
+
+.anons {
+    width: 100%;
+    text-align: center;
+    color: #555;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+/* Home History */
+.home_history {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.home-history-con {
+    width: 150rem;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.container1 {
+    width: 50rem;
+    height: 26rem;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border: solid .1rem white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 .logo {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 .logo img {
+    width: 7.8rem;
+    height: 7.8rem;
+}
+
+.container1 p {
+    color: #555;
+}
+
+.name p {
+    font-size: 2.4rem;
+}
+
+.text p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+/* Contact Me */
+.contact_me {
+    width: 100%;
+    height: 40rem;
+    background: url("walper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_me_con {
+    width: 150rem;
+    height: 36rem;
+    background-color: rgba(255,255,255,0.4);
+    display: flex;
+}
+
+.left-contact_me {
+    width: 75rem;
+    height: 40rem;
+}
+
+form {
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 7rem;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: solid .1rem #555;
+    padding: 1rem 2rem;
+}
+
+label span {
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.right-contact_me {
+    width: 75rem;
+    height: 40rem;
+}
+
+.right_contach_head {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.right_contach_head p {
+    font-size: 2.4rem;
+    color: rgb(83, 172, 142);
+
+}
+
+.right_contach_body {
+    width: 100%;
+}
+
+.right_contach_body p {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.row1 {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+.row1 p {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.row1 img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-links span:hover {
+    transition: 1s;
+    color: rgb(83, 172, 142);
+
+}
+
+.coffe-me{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 200, 200,0.4);
+    padding: 2rem 0;
+}
+
+.coffee-con{
+    width: 150rem;
+    display: flex;
+    gap: 2rem;
+
+}
+.coffee-con-date{
+    width: 35.5rem;
+    height: 10rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.image ion-icon{
+    color: rgb(83, 172, 142);
+    font-size: 6.6rem;
+}
+
+.coffee-text .number{
+    font-size: 3.2rem;
+    color: rgb(83, 172, 142);
+}
+
+.sentence-text{
+    font-size: 2.4rem;
+    color: #555;
+}
+
+/* Media Queries */
+
+/* Tablet (768px and above) */
+@media only screen and (max-width: 1500px) {
+    body{
+        display: none;
+    }
+}
+
+
